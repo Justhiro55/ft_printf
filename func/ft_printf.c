@@ -6,7 +6,7 @@
 /*   By: hhagiwar <hhagiwar@student.42Tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/15 12:01:17 by hhagiwar          #+#    #+#             */
-/*   Updated: 2023/06/18 14:18:59 by hhagiwar         ###   ########.fr       */
+/*   Updated: 2023/06/19 20:12:58 by hhagiwar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -85,28 +85,3 @@ int	ft_printf(const char *arg, ...)
 	va_end(ap);
 	return (count);
 }
-
-// int	main(void)
-// {
-// 	ft_printf("---ft_printf---\n");
-// 	ft_printf("char:%c\nstring:%s\nint(d):%d\n", '\0', NULL, NULL);
-// 	ft_printf("hexadecimal(p):%p\n", (void *)0);
-// 	ft_printf("int(i):%i\n", -11110);
-// 	ft_printf("unsigned int:%u\n", (unsigned int)-4294967196);
-// 	ft_printf("base16:%x\n", 3000);
-// 	ft_printf("BASE16:%X\n", 3000);
-// 	ft_printf("%%\n");
-// 	//
-// 	printf("\n---printf---\n");
-// 	printf("char:%c\nstring:%s\nint(d):%d\n", '\0', NULL, NULL);
-// 	printf("hexadecimal(p):%p\n", (void *)(0));
-// 	// printf("hexadecimal(p):%zu\n", ULONG_MAX);
-// 	printf("int(i):%i\n", -11110);
-// 	printf("unsigned int:%u\n", (unsigned int)922337203685);
-// 	printf("base16:%x\n", 3000);
-// 	printf("BASE16:%X\n", 3000);
-// 	printf("%%\n");
-// 	// printf("%zu\n", );
-// 	printf("\n\n-----end------");
-// 	return (0);
-// }
