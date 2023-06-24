@@ -20,4 +20,4 @@ Run the following commands:
 ### Third-party tester
 I tested the library with this third-party tester:
 
-- [printfTester](https://github.com/Tripouille/libftTester](https://github.com/Tripouille/printfTester)https://github.com/Tripouille/printfTester)
+- [printfTester](https://github.com/Tripouille/printfTester)
