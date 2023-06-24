@@ -15,3 +15,9 @@ Run the following commands:
   - make fclean
 - To re-compile:
   - make re
+
+## Testing
+### Third-party tester
+I tested the library with this third-party tester:
+
+- [printfTester](https://github.com/Tripouille/libftTester](https://github.com/Tripouille/printfTester)https://github.com/Tripouille/printfTester)
